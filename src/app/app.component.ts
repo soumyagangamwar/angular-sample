@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { MetaService } from './meta.service';
+
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-mentoring';
+
+  constructor(private metaService: MetaService) {
+
+  }
+
+ 
+
 }

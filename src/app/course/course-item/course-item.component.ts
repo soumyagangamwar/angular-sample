@@ -12,4 +12,12 @@ export class CourseItemComponent implements OnInit {
   ngOnInit() {
   }
 
+  onEdit() {
+
+  }
+
+  onDelete () {
+    
+  }
+
 }
