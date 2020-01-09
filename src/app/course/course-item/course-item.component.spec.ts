@@ -23,3 +23,4 @@ describe('CourseItemComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+

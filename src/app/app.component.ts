@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { MetaService } from './meta.service';
 
-
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

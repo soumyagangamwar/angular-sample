@@ -8,6 +8,7 @@ import { Course } from '../models/course';
 export class CourseListComponent implements OnInit {
   courses: Course[];
   constructor() { }
+  
 
   ngOnInit() {
     this.courses = [

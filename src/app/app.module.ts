@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CommonComponentsModule } from './common-components/common-components.module';
 import { CourseModule } from './course/course.module';
 
+
 @NgModule({
   declarations: [
     AppComponent

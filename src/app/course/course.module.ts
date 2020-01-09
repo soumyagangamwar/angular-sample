@@ -11,6 +11,7 @@ const routes: Routes = [{
   path : '',
   component : CourseComponent
 }];
+
 @NgModule({
   declarations: [CourseComponent, CourseListComponent, SearchCourseComponent, CourseItemComponent, AddCourseComponent, LoadMoreComponent],
   imports: [

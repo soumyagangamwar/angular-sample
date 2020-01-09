@@ -16,5 +16,6 @@ import { NavbarComponent } from './navbar/navbar.component';
     FooterComponent,
     NavbarComponent
   ]
+  
 })
 export class CommonComponentsModule { }

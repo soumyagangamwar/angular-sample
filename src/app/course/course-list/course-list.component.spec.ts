@@ -5,6 +5,7 @@ import { CourseListComponent } from './course-list.component';
 describe('CourseListComponent', () => {
   let component: CourseListComponent;
   let fixture: ComponentFixture<CourseListComponent>;
+  
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({

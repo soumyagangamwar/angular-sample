@@ -14,9 +14,7 @@ export class MetaService {
         console.log(ismobile, 'Is Mobile');
         console.log(mgecko, 'mgecko')
 
-    
-        
-      }
+   }
     
     
     
