@@ -9,11 +9,17 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles.02269b2c1d78e2a3fc1c.css"></head>
 <body>
+ 
   <script>
-      (function () {
-        const metas = document.getElementsByTagName('meta');
-      //  meta.onclick();
-        console.log(metas, 'metas')
+
+    (function () {
+    
+      const metas = document.getElementsByTagName('meta')
+      console.log(metas, 'metas')
+      document.getElementsByTagName('meta')[1].onloadeddata = function() {
+        console.log('load function')
+        };
+     
       }());
    </script>
   <app-root></app-root>
